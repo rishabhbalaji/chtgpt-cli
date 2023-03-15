@@ -2,7 +2,7 @@
 import openai
 import argparse
 
-openai.api_key = "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"
+openai.api_key = "<OPENAI API KEY HERE>"
 
 def generate_text(prompt):
     model_engine = "text-davinci-002"
